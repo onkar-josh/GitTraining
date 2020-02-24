@@ -30,11 +30,12 @@ end
 
 #Creating object of the Calculator Class
 calc = Calculator.new
-#Fuction call
+#Fuction call of calculator class
 calc.addition(5,10)
 calc.squre(5)
 calc.divide(6,2)
 calc.divide(6,0)
 calc.multiplication(2,4)
 calc.substract(7,3)
+
 
