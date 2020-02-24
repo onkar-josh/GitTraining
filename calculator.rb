@@ -1,4 +1,5 @@
 class Calculator
+
   def squre(x)
     puts x * x
   end
@@ -6,8 +7,15 @@ class Calculator
   def addition(a,b)
     puts a + b
   end
-end
 
-calc = Calculator.new
-calc.addition(5,10)
-calc.squre(5)
+  def powering(num)
+    puts num**num;
+    
+  end
+end
+#Ceating object of the Calculator Class
+cal=Calculator.new;
+#Fuction call
+cal.powering(3);
+cal.addition(5,10)
+cal.squre(5)
