@@ -1,4 +1,8 @@
 class Calculator
+  def multiplication(a,b)
+    puts a*b
+  end 
+
   def squre(x)
     puts x * x
   end
@@ -6,7 +10,6 @@ class Calculator
   def addition(a,b)
     puts a + b
   end
-end
 
   def divide(operand1, operand2)
     begin
@@ -16,10 +19,13 @@ end
     end
   end
 
-  calc = Calculator.new
-  calc.addition(5,10)
-  calc.squre(5)
-  calc.divide(6,2)
-  calc.divide(6,0)
 end
 
+
+
+calc = Calculator.new
+calc.addition(5,10)
+calc.squre(5)
+calc.divide(6,2)
+calc.divide(6,0)
+calc.multiplication(2,4)
